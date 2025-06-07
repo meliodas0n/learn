@@ -4,7 +4,7 @@ function draw(ctx, length, x, y, color) {
   ctx.fillStyle = color;
   ctx.fillRect(x, y, length, length);
 
-  return {length: length, x: x, y: y, color: color};
+  return { length: length, x: x, y: y, color: color };
 }
 
 function random(min, max) { return Math.floor(Math.random() * (max - min)) + min; }
@@ -29,7 +29,7 @@ function randomSquare(ctx) {
   let color1 = random(0, 255);
   let color2 = random(0, 255);
   let color3 = random(0, 255);
-  let color = `rgb(${color1},${color2},${color3})`
+  let color = `rgb(${color1},${color2},${color3})`;
   ctx.fillStyle = color;
 
   let x = random(0, 400);
@@ -37,7 +37,7 @@ function randomSquare(ctx) {
   let length = random(10, 100);
   ctx.fillRect(x, y, length, length);
 
-  return {length: length, x: x, y: y, color: color};
+  return { length: length, x: x, y: y, color: color };
 }
 
 export { name, draw, reportArea, reportPerimeter };

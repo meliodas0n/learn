@@ -10,7 +10,7 @@ function create(id, parent, width, height) {
 
   let ctx = canvasElem.getContext('2d');
 
-  return {ctx: ctx, id: id};
+  return { ctx: ctx, id: id };
 }
 
 function createReportList(wrapperId) {
