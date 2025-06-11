@@ -21,6 +21,6 @@ function HomePage() {
   )
 }
 ```
-In the abnove function we are basically passing the title value when calling Header tag, which is indeed a function
+In the above function we are basically passing the title value when calling Header tag, which is indeed a function
 In React - every function can act as a HTML tag, you can do all your processing inside the function and generating dynamic 
 HTML tags to render it on the website.
