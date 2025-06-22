@@ -24,3 +24,15 @@
 ## Generalization, Overfitting and Underfitting
 - In supervised learning, if a model is able to make accurate predictions on the unseen data, we say it is able to generalize from the training set to the test set.
 - We want a model that is able to generalize as accurately as possible.
+- Overfitting occurs when you fit a model too closely to the particularities of the training set aand obtain a model that works well on the training set but is not able to generalize to new data.
+- Choosing a very simple rule and not being able to capture all the aspects and variability in the data is called Underfitting.
+- The more complex we allow our model to be, the btter we will be able to predict on the training data. However, if our model becomes too complex, we start focusing too much on each individual data point in our trianing set, and the model will not generalize pwell on new data.
+- The sweet spot between underfitting and overfitting that will yield the best generalization performance is what we want in a mdoel.
+
+## Relation of Model Complexity to Dataset Size
+- Model complexity and variation of inputs contained in the training dataset are intimately tied together.
+- Larget variety of data points yourr dataset contains, the more complex of a model you can build without underfitting.o
+- Having more data and building appropirately more complex models can often work wonders for supervised learning tasks.
+
+## Supervised Machine Learning Algorithms
+- Any intuition derived from datasets with few features (also called low-dimensional datasets) might not hold in datasets with many features (also called high dimensional datasets).
