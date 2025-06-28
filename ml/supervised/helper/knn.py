@@ -15,7 +15,7 @@ class KNN:
   def predict(self, X):
     self.X = np.array(X.values[1::, :]) if type(X) == pd.DataFrame else np.array(X)
     return [self._predict_points(x) for x in X]
-  
+
   def _predict_points(self, x):
     distances = np.linalg.norm(self.X_train - x, axis=1)
     k_indices = distances.argsort()[:self.k]
