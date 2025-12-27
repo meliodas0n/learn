@@ -28,7 +28,7 @@ If it important to note that row operations are *reversible*. If two rows are in
 
 ##### If the augmented matrices of two linear systems are now equivalent, then the two systems have the same solution set.
 
-#### Existence and Uniqueness Questions
+## Existence and Uniqueness Questions
 Answers to the following two questions will determine the nature of the solution set for a linear system as to determine which possibility is true for a particular system,
 (possibility -- no solution or one solution or infinite solution),
 
@@ -42,3 +42,16 @@ Numbers are represented as decimals +-.d1...dp x 10^r, where *r* is an integer a
 Arithmetic with such numbers typically is inexact, because the results must be rounded(or truncated) to the numbner of digits stored.
 "Roundoff error" is also introduced when a number such as 1/3 is entered into the computer, since its decimal representation must be approximated by a finite number of digits.
 *`Fortunately, inaccuracies in floating point arithmetic seldom cause problems.`*
+
+## Row Reduction and Echelon Forms
+A *nonzero* row or column in a matrix means a row or column that contains at least one nonzero entry.
+A `leading entry` of a row refers to the leftmost nonzero entry(in a nonzero row).
+
+### Echelon Form
+A rectangular matrix is in `echelon form` (or `row echelong form`) if it has the following three properties:
+  1. All nonzero rows are above any rows of all zeros.
+  2. Each leading entry of a row is in a column to the right of the leading entry of the row above it.
+  3. All entries in a column below a leading entry are zeros.
+If a matrix in echelong form satisfies the following additional conditions, then it is in `reduced echelon form` (or `reduced row echelon form`):
+  4. The leading entry in each nonzero row is 1.
+  5. Each leading 1 is the only nonzero entry in its column.
