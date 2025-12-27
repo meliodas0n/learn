@@ -32,7 +32,7 @@ If it important to note that row operations are *reversible*. If two rows are in
 Answers to the following two questions will determine the nature of the solution set for a linear system as to determine which possibility is true for a particular system,
 (possibility -- no solution or one solution or infinite solution),
 
-1. Is th e system consistentl that is, does at least one solution *exist*?
+1. Is the system consistent; that is, does at least one solution *exist*?
 2. If a solution exists, is it the *only one*; that is, is the solution *unique*?
 
 ### Numerical Note:
