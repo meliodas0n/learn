@@ -1,3 +1,5 @@
+# Linear Algebra and Its Applications
+
 A system of `linear equations` (or a `linear system`) is a collection of one or more linear equations involving the same variables - say, x1...xn.
 
 A `solution` of the system is a list(s1, s2,....sn) of numbers that makes each equation a true statement when the values s1...sn are substituted for x1...xn respectively
@@ -25,3 +27,18 @@ Row operations can be applied to any matrix, not merely to one that arises as th
 If it important to note that row operations are *reversible*. If two rows are interchanged, they can be returned to their original positions by another interchange.
 
 ##### If the augmented matrices of two linear systems are now equivalent, then the two systems have the same solution set.
+
+#### Existence and Uniqueness Questions
+Answers to the following two questions will determine the nature of the solution set for a linear system as to determine which possibility is true for a particular system,
+(possibility -- no solution or one solution or infinite solution),
+
+1. Is th e system consistentl that is, does at least one solution *exist*?
+2. If a solution exists, is it the *only one*; that is, is the solution *unique*?
+
+### Numerical Note:
+In real-world problems, system of linear equations are solved by a computer, For a square coefficient matrix, computer programs nearly always use the elimination algorithm.
+The vast majority of linear algebra problems in business and industry are solved with programs that use *floating point arithmetic*.
+Numbers are represented as decimals +-.d1...dp x 10^r, where *r* is an integer and the number *p* of digits to the right of the decimal point is usually between 8 and 16.
+Arithmetic with such numbers typically is inexact, because the results must be rounded(or truncated) to the numbner of digits stored.
+"Roundoff error" is also introduced when a number such as 1/3 is entered into the computer, since its decimal representation must be approximated by a finite number of digits.
+*`Fortunately, inaccuracies in floating point arithmetic seldom cause problems.`*
