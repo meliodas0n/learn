@@ -54,5 +54,6 @@ A rectangular matrix is in `echelon form` (or `row echelong form`) if it has the
   3. All entries in a column below a leading entry are zeros.
 <br>
 If a matrix in echelong form satisfies the following additional conditions, then it is in `reduced echelon form` (or `reduced row echelon form`):
+<br>
   4. The leading entry in each nonzero row is 1.
   5. Each leading 1 is the only nonzero entry in its column.
