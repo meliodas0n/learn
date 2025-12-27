@@ -57,3 +57,5 @@ If a matrix in echelong form satisfies the following additional conditions, then
 
   4. The leading entry in each nonzero row is 1.
   5. Each leading 1 is the only nonzero entry in its column.
+
+An `echelon matrix` (respectively, `reduced echelon matrix`) is one that is in echelon form (respectively, reduced echelon form). Property 2 says that the leading entries form an *echelon* (“steplike”) pattern that moves down and to the right through the matrix. Property 3 is a simple consequence of property 2.
